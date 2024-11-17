@@ -1,0 +1,123 @@
+/* General container styling */
+.container {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    padding: 20px;
+    min-height: 100vh;
+  }
+  
+  /* Title styling */
+  h1 {
+    color: #333;
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  /* Loader styling */
+  .loader {
+    font-size: 18px;
+    color: #555;
+    margin-top: 10px;
+    font-style: italic;
+  }
+  
+  /* Result card styling */
+  .result-card {
+    text-align: left;
+    margin: 20px auto;
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .result-card h2 {
+    font-size: 24px;
+    color: #444;
+    margin-bottom: 10px;
+  }
+  
+  .result-card p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .result-card ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+  }
+  
+  .result-card ul li {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  /* Button styling */
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  /* Input file styling */
+  input[type="file"] {
+    margin-left: 15px;
+  }
+  
+  /* Video and image container */
+  video,
+  img {
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
+    display: block;
+  }
+  
+  /* Emotion breakdown list styling */
+  .emotion-list {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  .emotion-list li {
+    margin-bottom: 5px;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 28px;
+    }
+  
+    button {
+      padding: 8px 16px;
+      font-size: 14px;
+    }
+  
+    .result-card {
+      padding: 15px;
+    }
+  }
+  
